@@ -7,7 +7,7 @@ sap.ui.define([
 	"sap/m/ObjectAttribute"
 	], function(Controller, mobileLibrary, Locale,LocaleData, Currency, ObjectAttribute ) {
 		"use strict";
-		///
+		
 		return Controller.extend("sap.ui.demo.db.controller.App", {
 			formatMail: function(sFirstName, sLastName){
 				var oBundle=this.getView().getModel("i18n").getResourceBundle();
